@@ -6,37 +6,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webfood</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <header>
-    <a href="/index.html">Webfood</a>
+  <header id="main-header">
+    <a href="/index.html" id="logo">Webfood</a>
     <nav>
       <ul>
-        <li><a href="browse-meals.html"></a></li>
-        <li><a href="my-orders.html"></a></li>
+        <li><a href="browse-meals.html">Browse Meals</a></li>
+        <li><a href="my-orders.html">My Orders</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <h1>Browse Our Delicious Meals</h1>
-    <section>
+    <section id="latest-products">
       <ul>
-        <li>
+        <li class="food-item">
           <article>
-            <img src="" alt="">
-            <div>
+            <img src="images/risotto.jpg" alt="Risotto with tiger prawns">
+            <div class="food-item-content">
               <h2>Tiger Prawns with Risotto</h2>
-              <p>Lorem, ipsum dolor sit amet</p>
+              <a href="" class="button"></a>
             </div>
           </article>
         </li>
-        <li>
+        <li class="food-item">
           <article>
-            <img src="" alt="">
-            <div>
-              <h2>Tiger Prawns with Risotto</h2>
-              <p>Lorem, ipsum dolor sit amet</p>
+            <img src="images/cheeseburgers.jpg" alt="cheeseburger with fries">
+            <div class="food-item-content">
+              <h2>Cheeseburger</h2>
+              <a href="" class="button"></a>
             </div>
           </article>
         </li>
